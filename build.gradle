@@ -81,5 +81,5 @@ configure(subprojects.findAll { project -> project.name == 'game' }) {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.10'
+    gradleVersion = '1.11'
 }
