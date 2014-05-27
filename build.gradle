@@ -42,8 +42,8 @@ subprojects {
   }
 
   task ie(type: Test) {
-    systemProperties['browser'] = 'ie'
-    systemProperties['timeout'] = '12000'
+    systemProperties['selenide.browser'] = 'ie'
+    systemProperties['selenide.timeout'] = '12000'
     systemProperties 'file.encoding': 'UTF-8'
     testLogging.showStandardStreams = true
   }
@@ -62,8 +62,8 @@ subprojects {
   }
 
   task opera(type: Test) {
-    systemProperties['browser'] = 'opera'
-    systemProperties['timeout'] = '20000'
+    systemProperties['selenide.browser'] = 'opera'
+    systemProperties['selenide.timeout'] = '20000'
     systemProperties 'file.encoding': 'UTF-8'
     testLogging.showStandardStreams = true
   }
