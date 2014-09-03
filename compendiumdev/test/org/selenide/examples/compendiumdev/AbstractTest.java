@@ -21,8 +21,7 @@ public class AbstractTest {
   }
 
   @BeforeMethod
-  public void SetUp() {
-
+  public void setUp() {
     WebDriverRunner.setWebDriver(getWebdriver());
     Configuration.timeout = 4000;
     getWebdriver().get("http://compendiumdev.co.uk/selenium" + getUrl());
