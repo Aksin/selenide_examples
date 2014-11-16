@@ -1,0 +1,6 @@
+dependencies {
+  testCompile 'junit:junit:4.11'
+  // testRuntime group: 'com.github.detro', name: 'phantomjsdriver', version: '1.2.0', transitive: false
+  // testRuntime group: 'org.seleniumhq.selenium', name: 'selenium-safari-driver', version: '2.44.0'
+  // testRuntime group: 'com.opera', name: 'operadriver', version: '1.5'
+}
