@@ -1,11 +1,11 @@
-package org.selenide.examples.google_with_page_object;
+package org.selenide.examples.google.selenide_page_object;
 
 import com.codeborne.selenide.ElementsCollection;
 
 import static com.codeborne.selenide.Selenide.$$;
 
-public class ResultsPage {
-  public ElementsCollection results() {
+public class SearchResultsPage {
+  public ElementsCollection getResults() {
     return $$("#ires li.g");
   }
 }
