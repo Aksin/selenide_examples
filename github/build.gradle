@@ -3,5 +3,5 @@ test {
 }
 
 dependencies {
-  testCompile 'org.testng:testng:6.8.17'
+  testCompile 'org.testng:testng:6.8.+'
 }
